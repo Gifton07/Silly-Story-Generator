@@ -1,2 +1,2 @@
 # Silly-Story-Generator
-![Alt text](Screenshot(368).png)
+![Silly-Story-Generator](./Screenshot(368).png)
