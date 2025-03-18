@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Silly story generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+     
+  </head>
+
+  <body class="bg-fuchsia-950 flex justify-center items-center h-screen">
+    <div class=" border-2 rounded-lg border-black text-center bg-teal-300 p-4  max-w-lg mx-auto  ">
+    <div class="m-3">
+      <label for="customname" class="font-bold">Enter custom name:</label>
+      <input id="customname" type="text" placeholder=""  class="border-2 border-gray rounded-md"/>
+    </div>
+    <div>
+      <label for="us" class="font-bold">US</label
+      ><input id="us" type="radio" name="ukus" value="us" checked />
+      <label for="uk" class="font-bold">UK</label
+      ><input id="uk" type="radio" name="ukus" value="uk" />
+    </div>
+    <div>
+      <button class="randomize bg-yellow-300 rounded-lg p-3 m-4 font-bold">Generate random story</button>
+    </div>
+    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+    <p class="story  font-semibold"></p>
+    <script src="/javascript/main.js"></script>
+  </div>
+  </body>
+</html>
